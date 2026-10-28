@@ -1,0 +1,14 @@
+torch
+torchvision
+numpy
+scipy
+matplotlib
+xarray
+netCDF4
+h5py
+boto3
+s3fs
+opencv-python
+segmentation-models-pytorch
+piq
+tqdm
