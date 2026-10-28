@@ -16,3 +16,4 @@ softmax-splatting/
 *.nc
 *.pth
 *.gif
+!docs/results/*.gif

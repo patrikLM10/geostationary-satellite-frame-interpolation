@@ -8,6 +8,10 @@ I0 (t=0)  ─────────────?>  I30 (t=30 min)  <───�
               RAFT flow + physics Z-map + softmax splatting + U-Net
 ```
 
+**Demo — animated interpolation between the two endpoint scans (intermediate steps are model-generated):**
+
+![Animated interpolated satellite sequence](docs/results/interpolated_sequence.gif)
+
 > Developed in Google Colab during a hackathon sprint; the final Colab notebook
 > was distilled into this modular package (prototype kept in `notebooks/`).
 
@@ -120,6 +124,7 @@ satellite/
 ├── docs/
 │   ├── architecture.png        # pipeline architecture diagram
 │   └── results/                # figures from a full validation run
+│       ├── interpolated_sequence.gif
 │       ├── triplet_preview.png
 │       ├── optical_flow.png
 │       ├── interpolation_comparison.png
